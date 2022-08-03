@@ -5,26 +5,5 @@
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
   
-  <servlet>
-  	<servlet-name>Prompt2</servlet-name>
-  	<display-name>Prompt2</display-name>
-  	<description></description>
-  	<servlet-class>els.servlets.Prompt2</servlet-class>
-  </servlet>
-  <servlet>
-  	<servlet-name>Prompt3</servlet-name>
-  	<display-name>Prompt3</display-name>
-  	<description></description>
-  	<servlet-class>els.servlets.Prompt3</servlet-class>
-  </servlet>
-  
-  <servlet-mapping>
-  	<servlet-name>Prompt2</servlet-name>
-  	<url-pattern>/prompt2</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-  	<servlet-name>Prompt3</servlet-name>
-  	<url-pattern>/prompt3</url-pattern>
-  </servlet-mapping>
   
 </web-app>
